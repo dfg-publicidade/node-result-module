@@ -14,3 +14,4 @@ class Result {
 }
 
 export default Result;
+export { ResultStatus };

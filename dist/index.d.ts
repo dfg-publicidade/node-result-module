@@ -6,3 +6,4 @@ declare class Result {
     constructor(status: ResultStatus, content: any);
 }
 export default Result;
+export { ResultStatus };
