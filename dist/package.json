@@ -11,8 +11,8 @@
         "test:all": "npm run test test/**/*.spec.ts test/**/**/*.spec.ts test/**/**/**/*.spec.ts"
     },
     "dependencies": {
-        "@types/node": "^14.14.10",
-        "moment-timezone": "^0.5.32"
+        "@dfgpublicidade/node-app-module": "git+https://github.com/dfg-publicidade/node-app-module.git",
+        "@dfgpublicidade/node-dates-module": "git+ssh://git@github.com/dfg-publicidade/node-dates-module.git"
     },
     "devDependencies": {
         "@dfgpublicidade/eslint-config": "git+ssh://git@github.com/dfg-publicidade/eslint-config.git",
