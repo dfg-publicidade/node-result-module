@@ -1,4 +1,5 @@
 import ResultStatus from './enums/resultStatus';
+import HttpStatus from './refs/httpStatus';
 declare class Result {
     status: string;
     content: any;
@@ -6,4 +7,4 @@ declare class Result {
     constructor(status: ResultStatus, content: any);
 }
 export default Result;
-export { ResultStatus };
+export { ResultStatus, HttpStatus };

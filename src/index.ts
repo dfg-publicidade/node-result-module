@@ -1,5 +1,6 @@
 import moment from 'moment-timezone';
 import ResultStatus from './enums/resultStatus';
+import HttpStatus from './refs/httpStatus';
 
 /* Module */
 class Result {
@@ -14,4 +15,4 @@ class Result {
 }
 
 export default Result;
-export { ResultStatus };
+export { ResultStatus, HttpStatus };
