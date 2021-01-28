@@ -7,6 +7,7 @@ HttpStatus.success = 200;
 HttpStatus.created = 201;
 HttpStatus.badRequest = 400;
 HttpStatus.unauthorized = 401;
+HttpStatus.paymentRequired = 402;
 HttpStatus.forbidden = 403;
 HttpStatus.notFound = 404;
 HttpStatus.payloadToLarge = 413;

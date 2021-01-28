@@ -3,6 +3,7 @@ declare class HttpStatus {
     static readonly created: number;
     static readonly badRequest: number;
     static readonly unauthorized: number;
+    static readonly paymentRequired: number;
     static readonly forbidden: number;
     static readonly notFound: number;
     static readonly payloadToLarge: number;
