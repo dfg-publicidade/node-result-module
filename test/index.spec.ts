@@ -4,7 +4,7 @@ import Result, { ResultStatus } from '../src/index';
 
 /* Tests */
 describe('index.ts', (): void => {
-    it('constructor', async (): Promise<void> => {
+    it('1. constructor', async (): Promise<void> => {
         const result: Result = new Result(ResultStatus.SUCCESS, {
             test: 1
         });
